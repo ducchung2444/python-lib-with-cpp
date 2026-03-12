@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "pybind11>=2.11"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_lib_for_python_by_cpp"
+version = "0.1.0"
+description = "Simple example Python package with a C++ extension using pybind11"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
